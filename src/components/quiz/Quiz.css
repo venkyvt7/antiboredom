@@ -1,0 +1,74 @@
+body {
+    background-image: linear-gradient(to right, #2f2fa2, #5f45d3);
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+  }
+  .quizz {
+    background-color: rgb(143, 118, 190);
+    color: white;
+    margin: auto;
+    width: 58%;
+    padding: 2vh;
+    border-radius: 25px;
+  }
+  .ques {
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 5vh; */
+  }
+  .options {
+    display: inline-grid;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5vh;
+    grid-row-gap: 5vh;
+  }
+
+  .spotify{
+    /* display: flex; */
+    text-align: center;
+  }
+  img {
+    width: 17vw;
+    height: 25vh;
+    border-radius: 15px;
+  }
+  .buttonx {
+    border: none;
+    background-color: transparent;
+  }
+  .buttonx:hover {
+    opacity: 0.7;
+  }
+  @media (max-width: 800px) {
+    .options {
+      grid-template-columns: auto auto;
+      padding-left: 1vw;
+      grid-row-gap: 2vh;
+    }
+    img {
+      width: 20vw;
+      height: 20vh;
+      border-radius: 15px;
+    }
+  }
+  @media (max-width: 700px) {
+    .options {
+      grid-template-columns: auto;
+      padding-left: 12vw;
+      grid-row-gap: 2vh;
+      padding-left: 4vw;
+    }
+    img {
+      width: 35vw;
+      height: 20vh;
+      border-radius: 15px;
+    }
+  }
+  
