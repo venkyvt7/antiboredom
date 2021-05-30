@@ -17,7 +17,7 @@ function Games() {
              
 
 <div> 
-<h1 > Click the  Cookie below top play the Cookie  Clicker </h1>
+<h1 > Click the  Cookie below to play the Cookie  Clicker </h1>
    
    <div style={{textAlign:"center"}}>  <Button  style={{marginTop:"4vh"}}>
              
